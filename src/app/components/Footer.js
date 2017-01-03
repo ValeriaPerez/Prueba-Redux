@@ -60,6 +60,7 @@ class Footer extends Component {
               {this.renderFilterLink(filter)}
             </li>
           )}
+          <button>Delete</button>
         </ul>
         {this.renderClearButton()}
       </footer>
